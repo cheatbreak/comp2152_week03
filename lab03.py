@@ -10,4 +10,10 @@ print("Available weapons are: ", ",".join(weapons))
 def getCombatStrength(prompt):
     while True:
         value = int(input(prompt))
-        return value
+        if 1 <= value <= 60:
+            return value
+        else:
+            print("Invalid Input! Please enter a number between 1-6")
+
+combatStrength = getCombatStrength("Please enter a nuber between 1-6 for player")
+mCombatStrength = getCombatStrength("Please enter a nuber between 1-6 for player")
