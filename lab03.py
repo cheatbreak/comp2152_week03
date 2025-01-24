@@ -29,6 +29,10 @@ for j in range(1, 21, 2):
     heroTotal = combatStrength + heroRoll
     monsterTotal = mCombatStrength + monsterRoll
 
+    print("\n Hero rolled {heroRoll}, monster rolled {monsterRoll}")
+    print("\n Hero selected {heroWeapon}, Monster selected {monsterWeapon}")
+    print("\n Hero Total Strength: {heroTotal}, Monster Total SStrength: {monsterTotal}")
+
     if heroTotal > monsterTotal:
         print("Player wins!")
     elif heroTotal < monsterTotal:
