@@ -39,3 +39,6 @@ for j in range(1, 21, 2):
         print("Monster wins!")
     else:
         print("Its a tie!")
+
+    if j != 11:
+        print("Battle concluded after 20 rounds")
